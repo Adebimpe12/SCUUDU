@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: rgb(254,249,243);
+    height: 600px;
+}
+
+
+.client{
+    height: 180px;
+    width: 100%;
+    border-bottom: 1px solid rgb(254,249,243);
+    margin-bottom: 100px;
+}
+.section{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.section11{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    margin-right: 15%;
+}
+.section12{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+create{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.create1{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    margin-right: 15%;
+}
+.create2{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+real{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 500px;
+}
+
+.real1{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    margin-right: 15%;
+}
+.real2{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+capture{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: rgb(254,249,243);
+}
+
+.blue{
+    z-index: -1;
+    position: absolute;
+    margin-top: 80px;
+}
+.capturea{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    margin-right: 15%;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 90px;
+}
+
+.captureb{
+    color: white;
+    border: 2px solid red;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    position: relative;
+    margin-top: -400px;
+    margin-left: 500px;
+}
+.capturec{
+    color: white;
+    border: 2px solid red;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.now{
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.line{
+    margin-top: 400px;
+    border-bottom: 2px solid rgb(236,231,222);
+}
+
+.subscr{
+    background-color: rgb(109,25,49);
+    height: 150px;
+}
+
+.subscr img{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 35%;
+}
+
+.subscr input{
+    width: 400px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.seb{
+    float: right;
+    display: flex;
+    width: 50%;
+    margin-top: 60px;
+}
+
+.subscr button{
+    background-color: rgb(255,248,243);
+    color: rgb(109,25,49);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+}
+.terms a{
+    float: right;
+    margin-left: 20px;
+    color: rgb(106,114,129);
+}
+
+.bad{
+    height: 50px;
+}
+
+.lane{
+    margin-top: 100px;
+    border-bottom: 2px solid rgb(236,231,222);
+}
+
+
+
+

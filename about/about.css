@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    #blue {height: 700px; border: 2px solid red;}
+    #mission {height: 1000px;  border: 2px solid palevioletred; }
+    #view {height: 800px;  border: 2px solid green; }
+    #user { margin-left: -1000px;  }
+}
+@media screen and (max-width: 600px) {
+    #rectangle {height: 1000px; margin-bottom: 70px; }
+    #today{text-align:center; align-self: center; margin-bottom: 50px; }
+    #view {height: 800px;  border: 2px solid green; }
+    #user { margin-left: -1000px;  }
+}
