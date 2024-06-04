@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.subscr{
+    background-color: rgb(109,25,49);
+    
+}
+
+.subscr img{
+    width: 35%;
+}
+
+.subscr button{
+    background-color: rgb(255,248,243);
+    color: rgb(109,25,49);
+    font-weight: bold;
+}
+
+.terms a{
+    color: rgb(106,114,129);
+}
+
+.lane{
+    border-bottom: 2px solid rgb(236,231,222);
+}

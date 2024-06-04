@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 770px)  {
+    .subscr button{
+      margin-top: 1vh; 
+      font-size: 0.7em;
+    }
+    .exp h3, .exp p, .exp {
+        text-align: center;
+    }
+}
+
+.col-md-6 img{
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+#download{
+    background-color: rgb(109,25,49);
+}
+
+.client{
+    border-bottom: 1px solid rgb(254,249,243);
+}
+
+.back{
+    background-color:rgb(254,248,242) ;
+    z-index: -3;
+    position: relative;
+    padding-top: 10vh;
+}
+
+.sec{
+    background-color:rgb(254,248,242) ;
+}
+
+.blue{
+    background-color: rgb(20,57,76);
+    border-radius: 5px;
+    height: 40vh;
+    width: 77vw;
+    margin-top: 20vh;
+    z-index: -1;
+    position: relative;
+}
+
+.capturea{
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    margin-top: -40vh;
+    max-width: 80vw;
+    max-height: 80vh;
+    height: auto;
+}
+
+.captureb{
+    top: 50%;
+    left: 40vw;
+    width: 30vw;
+    margin-top: -15vh;
+    color: white;
+    position: absolute;
+}
+
+
+
+.now{
+    position: relative;
+    background-color: rgb(254,248,242);
+    border-radius: 5px;
+    font-weight: 600;
+    border: 0;
+    padding: 0.7vw;
+}
+
+.industry{
+    margin: 2vw;
+    padding: 2vw;
+    border-top: 2px solid rgb(109,25,49);
+    background-color: white;
+    border-right: 2px solid rgb(109,25,49);
+    border-radius: 5px;
+}
+
+
+.subscr{
+    background-color: rgb(109,25,49);
+}
+
+.subscr button{
+    background-color: rgb(255,248,243);
+    color: rgb(109,25,49);
+    font-weight: bold;
+}
+
+.terms a{
+    color: rgb(106,114,129);
+}
+
+.lane{
+    border-bottom: 2px solid rgb(236,231,222);
+}
+
+
+
+

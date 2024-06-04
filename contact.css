@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.blue{
+    background-color: rgb(20,57,76);
+    border-radius: 5px;
+    height: 40vh;
+    width: 77vw;
+    margin-top: 20vh;
+    z-index: -1;
+    position: relative;
+}
+
+.capturea{
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    margin-top: -40vh;
+    max-width: 80vw;
+    max-height: 80vh;
+    height: auto;
+}
+
+.captureb{
+    top: 50%;
+    left: 40vw;
+    width: 30vw;
+    margin-top: -15vh;
+    color: white;
+    position: absolute;
+}
+
+@media (min-width: 320px) and (max-width: 770px)  {
+    #redefine{width: 90vw; max-height: 90vw;}
+    .capturea,
+    .captureb {
+        position: static;
+        margin-top: 0;
+        max-width: 90vw;
+        width: 90vw;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .blue {
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.subscr{
+    background-color: rgb(109,25,49);
+    
+}
+
+.subscr img{
+    width: 35%;
+}
+
+.subscr button{
+    background-color: rgb(255,248,243);
+    color: rgb(109,25,49);
+    font-weight: bold;
+}
+
+.submit{
+    background-color:rgb(109,25,49); 
+    color: rgb(255,248,243);
+    font-weight: bold;
+    padding: 1vw;
+    margin-top: 2vh;
+}
+
+.terms a{
+    color: rgb(106,114,129);
+}
+
+.lane{
+    border-bottom: 2px solid rgb(236,231,222);
+}
